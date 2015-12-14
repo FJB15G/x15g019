@@ -10,7 +10,14 @@ public class L151 {
 		float a = sin.nextFloat();
 		System.out.print("bの入力-->");
 		float b = sin.nextFloat();
-		float q = (float)(Integer.parseInt(a)+ Integer.parseUnsignedInt(b);
+		float q = a+ b;
+		float w = a*b;
+		float n = a-b;
+		float m = a/b;
+		System.out.println("a+b="+q);
+		System.out.println("a-b="+n);
+		System.out.println("a*b="+w);
+		System.out.println("a/b="+m);
 		
 
 	}
